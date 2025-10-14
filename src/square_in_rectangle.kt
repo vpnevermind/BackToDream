@@ -17,5 +17,6 @@ fun sqInRect(lng:Int, wdth:Int):List<Int>? {
 }
 
 fun main() {
-    println(sqInRect(5,5)?.joinToString(" "))
+    val numberSets = listOf(listOf(1, 2, 3), listOf(4, 5, 6), listOf(1, 2))
+    println(numberSets.flatten())
 }
